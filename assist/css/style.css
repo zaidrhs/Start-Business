@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: #fff;
+
+}
+.background {
+    background-image: url('../img/banner-bk.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.header {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo {
+    width: 25vh; 
+    height: auto;
+    padding-left: 10vh;
+}
+.link {
+    margin-left: 150vh; 
+    text-decoration: none;
+    color: white; 
+    font-size: 20px; 
+}
+.content {
+    position: absolute;
+    top: 25vh; 
+    left: 15vh; 
+    color: white; /
+}
+.title {
+    font-size: 70px; 
+    margin: 0;
+    font-weight: bold;
+ 
+}
+.paragraph {
+    font-size: 18px; 
+        margin-top: 10px; 
+    max-width: 95vh; 
+}
+.btn-primary {
+    margin-top: 30px; 
+}
+
+
+.btn-primary {
+    margin-top: 20px; 
+    transition: transform 0.3s ease; 
+    text-decoration: none;
+
+}
+
+.btn-primary {
+    margin-top: 20px; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+    color: #192440; 
+    background-color: #00ffad; 
+    border-color:#00ffad; 
+    width: 20vh;
+    height: 6vh;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    transform: translateY(-10px); 
+    color: #ffffff; 
+    background-color: #00ffad; 
+    border-color: #00ffad; 
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10vh;
+    font-weight: bold;
+font-size: 40px;
+}
+.imgs{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 9vh;
+}
+.text-bot{
+    max-width: 300px;
+}
+#feature-first {
+    background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
+}
+#feature-last {
+    background: #00FFAD;
+}
+.btn-dark{
+    margin-top: 20px; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+    color: #ffffff; 
+    background-color: #192440; 
+    border-color:#192440; 
+    width: 20vh;
+    height: 6vh;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.btn-dark:hover{
+    transform: translateY(-10px); 
+    color: #ffffff; 
+    background-color: #192440; 
+    border-color: #192440; 
+}
+
+
+#feature-first, #feature-last {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+#price-table__premium {
+    background: #192440;
+    color: #ffffff;
+}
+.btn-close-white{
+    margin-top: 20px; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+    color: #192440; 
+    background-color: #ffffff; 
+    border-color:#192440; 
+    width: 20vh;
+    height: 6vh;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.btn-close-white:hover{
+    transform: translateY(-10px); 
+    color: #ffffff; 
+    background-color: #192440; 
+    border-color: #192440; 
+}
+#contact form input, #contact form textarea {
+    background: transparent;
+    border: 1px solid #00FFAD;
+    color: #ffffff;
+}
+label{
+    color: #00FFAD;
+}
+.btn-danger{
+    margin-top: 20px; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+    color: #192440; 
+    background-color: #00ffad; 
+    border-color:#00ffad; 
+    width: 76vh;
+    height: 6vh;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    transform: translateY(-10px); 
+    color: #ffffff; 
+    background-color: #00ffad; 
+    border-color: #00ffad; 
+}
+#img-logo, #contact{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+#copyright {
+    background: #192440;
+    padding: 2rem 3rem;
+}
+#copyright #social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    background: #ffffff;
+    transition: .4s ease;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+
+}
